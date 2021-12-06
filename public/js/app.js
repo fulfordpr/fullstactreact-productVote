@@ -12,7 +12,6 @@ class ProductList extends React.Component {
     this.setState({ products: Seed.products });
   }
 
-
   //this is really confusing so i need to comment Everything
   //state should be treated as immutable so you have to copy the state
   //property you want to change in order to then set the state property 
